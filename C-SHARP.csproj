@@ -6,7 +6,7 @@
     <RootNamespace>C_SHARP</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>C_SHARP.methods</StartupObject>
+    <StartupObject>C_SHARP.out_keyword</StartupObject>
   </PropertyGroup>
 
 </Project>
