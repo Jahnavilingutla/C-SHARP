@@ -6,7 +6,7 @@
     <RootNamespace>C_SHARP</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>C_SHARP.out_keyword</StartupObject>
+    <StartupObject>C_SHARP.TestUserDefinedException</StartupObject>
   </PropertyGroup>
 
 </Project>
