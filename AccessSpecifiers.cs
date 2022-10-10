@@ -7,46 +7,30 @@ using System.Threading.Tasks;
 namespace C_SHARP
 {
     //Show the difference between public and internal programmatically.
-    public class AS1
+    class Student
     {
-        double GetArea(double length, double width)
+        public string name = "Sheeran";
+        // internal within the same Assembly
+        internal string name1 = "Jahnavi";
+        
+    }
+
+    internal  class AccessSpecifiers
+    {
+        public  static void Main()
         {
-            return length * width;
-        }
-        public void Display(double length, double width)
-        {
-            Console.WriteLine("Length:", length);
-            Console.WriteLine("Width:", width);
-            Console.WriteLine("Area:", GetArea(length,width));
+
+            // creating object of Student class
+            Student student1 = new Student();
+
+            // accessing name field and printing it
+            Console.WriteLine("Name: " + student1.name);
+            Console.WriteLine("Name: " + student1.name1);
+
+           
         }
     }
-    internal class AccessSpecifiers
-    {
 
-       
-        double GetArea1(double length, double width)
-        {
-            return length * width;
-        }
-        public void Display1(double length,double width)
-        {
-            double l = length;
-            double w = width;
-            Console.WriteLine("Area:", GetArea1(l,w));
-        }
-       
 
-    }
-    internal class ABC
-    {
-        public static void Main()
-        {
-            AS1 AS1 = new AS1();
-            AS1.Display(10.0,20.0);
-            AccessSpecifiers AS = new AccessSpecifiers();
-            AS.Display1(30.0, 40.0);
-
-        }
-    }
 
 }

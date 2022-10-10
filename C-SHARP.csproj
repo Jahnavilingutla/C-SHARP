@@ -6,7 +6,7 @@
     <RootNamespace>C_SHARP</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>C_SHARP.TestUserDefinedException</StartupObject>
+    <StartupObject>C_SHARP.File1</StartupObject>
   </PropertyGroup>
 
 </Project>
